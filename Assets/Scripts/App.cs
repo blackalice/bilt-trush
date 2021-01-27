@@ -48,23 +48,23 @@ public class App : MonoBehaviour {
   // As a minimum, you should change kAppDisplayName.
   
   // This is the name of the app, as displayed to the users running it.
-  public const string kAppDisplayName = "Open Source Tilt Brush";
+  public const string kAppDisplayName = "BiltTrush";
   // The vendor name - used for naming android builds - shouldn't have spaces.
-  public const string kVendorName = "SomeCompany";
+  public const string kVendorName = "Doogle";
   // The vendor name - used for the company name in builds and fbx output. Can have spaces.
-  public const string kDisplayVendorName = "Some Company";
+  public const string kDisplayVendorName = "Doogle";
   // This is the App name used when speaking to Google services
   public const string kGoogleServicesAppName = kAppDisplayName;
   // The name of the configuration file. You may want to change this if you think your users may
   // want to have a different config file for your edition of the app.
-  public const string kConfigFileName = "Tilt Brush.cfg";
+  public const string kConfigFileName = "Bilt Trush.cfg";
   // The name of the App folder (In the user's Documents folder) - you may want to share this with
   // the original Tilt Brush, or not.
-  public const string kAppFolderName = "Tilt Brush";
+  public const string kAppFolderName = "Bilt Trush";
   // The data folder used on Google Drive.
   public const string kDriveFolderName = kAppDisplayName;
   // Executable Base
-  public const string kGuiBuildExecutableName = "OpenSourceTiltBrush";
+  public const string kGuiBuildExecutableName = "BiltTrush";
   // Windows Executable
   public const string kGuiBuildWindowsExecutableName = kGuiBuildExecutableName + ".exe";
   // OSX Executable
