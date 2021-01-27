@@ -279,8 +279,8 @@ namespace OculusSampleFramework
                 uiCamera.GetComponent<Camera>().targetTexture.Release();
 
             RenderTexture overlayRT = new RenderTexture(
-                    (int)renderTargetWidth * 1,
-                    (int)renderTargetHeight * 1,
+                    (int)renderTargetWidth * 2,
+                    (int)renderTargetHeight * 2,
                     0,
                     RenderTextureFormat.ARGB32,
                     RenderTextureReadWrite.sRGB);
